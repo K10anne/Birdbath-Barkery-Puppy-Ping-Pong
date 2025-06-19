@@ -1,39 +1,37 @@
 body {
-    text-align: center;
-    background-color: #ba989a;
-    font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ba989a;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;  /* Cute font */
-    color: #ebbdcb;  /* Soft pink color */
+  font-family: 'Pacifico', cursive;
+  color: #ebbdcb;
 }
 
-/* Responsive Canvas */
 canvas {
-    max-width: 100%;  /* ✅ Ensure canvas resizes */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid black;
-    background: url('ping pong background.png') no-repeat center center;
-    background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  background: url('ping_pong_background.png') no-repeat center center;
+  background-size: cover;
 }
 
-/* Fixing the Start Button */
 #startButton {
-    display: block;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-family: 'Pacifico', cursive;
-    background-color: #ebbdcb;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-top: 20px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  background-color: #ebbdcb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
