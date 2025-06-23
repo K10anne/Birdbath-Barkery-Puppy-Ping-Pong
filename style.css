@@ -1,0 +1,38 @@
+
+body {
+  text-align: center;
+  background-color: #ba989a;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #ebbdcb;
+}
+
+canvas {
+  width: 800px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  background: url('ping_pong_background.png') no-repeat center center;
+  background-size: cover;
+}
+
+
+#startButton {
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  background-color: #ebbdcb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
